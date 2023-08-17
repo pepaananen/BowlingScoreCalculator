@@ -91,8 +91,8 @@ namespace BowlingScoreCalculator
                         if (nextFrame.isStrike) {
                             if (frame.FrameNumber < 9) {
                                 frame.Score = frame.Throw1 + 10 + Round[i + 2].Throw1;
-                            } else if (nextFrame.Throw3 != null) {
-                                frame.Score = (int)(frame.Throw1 + 10 + nextFrame.Throw3);
+                            } else if (nextFrame.Throw2 != null) {//Strike on the 9th frame and 10th frame
+                                frame.Score = (int)(frame.Throw1 + nextFrame.Throw1 + nextFrame.Throw2);
                             }
                         }
                     } else {//Strike on the last frame
