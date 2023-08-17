@@ -11,13 +11,13 @@ scores for each player and display the final standings and scores.
 The following inputs will be accepted:
 
 	- For number of players
-		- Integer only
+		- Positive integer only.
 	- For player name
-		- Any string
-		- Null or empty string will result in "PlayerX" where "X" is the player number
+		- Any string.
+		- Null or empty string will result in "PlayerX" where "X" is the player number.
 	- For throw input
-		- Integer only
-		- Between 0-10 inclusive
+		- Integer only.
+		- Between 0-10 inclusive.
 		- Throw 1 and throw 2 must sum to 10 or less.
 
 Any invalid input will lead to a prompt for valid input.

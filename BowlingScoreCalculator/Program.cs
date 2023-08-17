@@ -9,7 +9,7 @@ public class Program
         int numPlayers;
         bool validPlayers = Int32.TryParse(playerInput, out numPlayers);
 
-        while (!validPlayers) {
+        while (!validPlayers || numPlayers < 0) {
             Console.WriteLine("Sorry, that input was not valid. Please input an integer to indicate the number of players.");
             playerInput = Console.ReadLine();
             validPlayers = Int32.TryParse(playerInput,out numPlayers);
