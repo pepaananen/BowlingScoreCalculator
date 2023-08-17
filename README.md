@@ -4,7 +4,7 @@ This program is a console app that was designed to be used while playing a game 
 It can track the scores of mulitple players and returns list of the final rankings after the game.
 
 The program will walk the user through setting up a game with all the players and then
-proceed to ask the pins knocked down for each player in each following the natural flow
+proceed to ask how many pins were knocked down for each player in each frame while following the natural flow
 of a game of bowling. Once all the throws have been input the program will calculate total 
 scores for each player and display the final standings and scores.
 
